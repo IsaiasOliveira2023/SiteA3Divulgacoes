@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#menuz{
+    list-style: none;
+    padding: 0;
+    background-color: #2f98de;
+}
+#menuz li {
+    display: inline;
+    
+    }
+    
+#menuz li a {
+    color: hsl(225, 100%, 99%);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:  1ss;
+    
+    
+}
+#menuz li a:hover {
+    background-color: hsl(197, 91%, 50%);
+
+        
+}
+#menuz li:last-child a {
+    float: right;
+    background-color: hsl(240, 100%, 1%);
+}
+body{
+    
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    background: rgb(251, 255, 2);
+    font-weight: bold;
+}
+
+  #bot {
+    float:left;
+    margin-right: 2px;
+  }
+  #sai {
+    float:right;
+    margin-right: 8px;
+  }
+  #header {
+    background: rgb(251, 255, 2);
+    color: rgb(7, 3, 3);
+    text-align: center;
+    padding: 20px;
+  }
+  #esq {
+    float: left;
+    margin-left: 55px;
+    margin-top: 2px;
+    
+  }
+ #sand {
+    float: left;
+    margin-left: 55px;
+    margin-top: 10px;
+
+  }
+  #cont_49ef881426d4ed124bebd5c229d09314{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    max-width: 100%
+    
+} 
+#mario {
+  float: right;
+  margin-right: 1px;
+  margin-top: 10px;
+      
+}
+#cont{
+  float: center;
+  margin-top: 100px;
+}
+.testo {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  background-color:aqua
+  
+ 
+}
+#main-content {
+  padding: 20px;
+}
+#container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 10px;
+margin: 175px;
+margin-top: 20px;
+grid-row-gap: 45px;
+}  
